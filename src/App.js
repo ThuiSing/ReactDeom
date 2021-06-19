@@ -13,10 +13,10 @@ const App = () => {
       <Header />
 
       <Switch>
-      <Route exact path="/" component={Home} />
-      <Route  path="/services" component={Services} />
-      <Route  path="/about" component={About} />
-      <Route  path="/contact" component={Contact} />
+      <Route exact path="/ReactDeom/" component={Home} />
+      <Route path="/ReactDeom/services" component={Services} />
+      <Route path="/ReactDeom/about" component={About} />
+      <Route  path="/ReactDeom/contact" component={Contact} />
       </Switch>
 
       <Footer />

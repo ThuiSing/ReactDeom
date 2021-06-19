@@ -13,16 +13,16 @@ const Header = () => {
     <div class="collapse navbar-collapse " id="navbarSupportedContent">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0 custom_nav">
         <li class="nav-item">
-          <NavLink exact activeClassName="main_active_menu" to="/"  aria-current="page" >Home</NavLink>
+          <NavLink exact activeClassName="main_active_menu" to="/ReactDeom"  aria-current="page" >Home</NavLink>
         </li>
         <li class="nav-item">
-          <NavLink activeClassName="main_active_menu" to="/services" >Services</NavLink>
+          <NavLink activeClassName="main_active_menu" to="/ReactDeom/services" >Services</NavLink>
         </li>
         <li class="nav-item">
-          <NavLink activeClassName="main_active_menu" to="/about" >About</NavLink>
+          <NavLink activeClassName="main_active_menu" to="/ReactDeom/about" >About</NavLink>
         </li>
         <li class="nav-item">
-          <NavLink activeClassName="main_active_menu" to="/contact"  >Contact</NavLink>
+          <NavLink activeClassName="main_active_menu" to="/ReactDeom/contact"  >Contact</NavLink>
         </li>
       </ul>
     </div>
