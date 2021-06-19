@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/ReactDeom/static/css/main.bb796366.chunk.css",
+    "main.js": "/ReactDeom/static/js/main.4e47b9e7.chunk.js",
+    "main.js.map": "/ReactDeom/static/js/main.4e47b9e7.chunk.js.map",
+    "runtime-main.js": "/ReactDeom/static/js/runtime-main.dc45cec8.js",
+    "runtime-main.js.map": "/ReactDeom/static/js/runtime-main.dc45cec8.js.map",
+    "static/css/2.61b4cb56.chunk.css": "/ReactDeom/static/css/2.61b4cb56.chunk.css",
+    "static/js/2.028f2570.chunk.js": "/ReactDeom/static/js/2.028f2570.chunk.js",
+    "static/js/2.028f2570.chunk.js.map": "/ReactDeom/static/js/2.028f2570.chunk.js.map",
+    "index.html": "/ReactDeom/index.html",
+    "static/css/2.61b4cb56.chunk.css.map": "/ReactDeom/static/css/2.61b4cb56.chunk.css.map",
+    "static/css/main.bb796366.chunk.css.map": "/ReactDeom/static/css/main.bb796366.chunk.css.map",
+    "static/js/2.028f2570.chunk.js.LICENSE.txt": "/ReactDeom/static/js/2.028f2570.chunk.js.LICENSE.txt",
+    "static/media/card1.e45b96be.jpg": "/ReactDeom/static/media/card1.e45b96be.jpg",
+    "static/media/card2.c397b1a2.jpg": "/ReactDeom/static/media/card2.c397b1a2.jpg",
+    "static/media/card3.24669c43.jpg": "/ReactDeom/static/media/card3.24669c43.jpg",
+    "static/media/card4.093633ef.jpg": "/ReactDeom/static/media/card4.093633ef.jpg",
+    "static/media/card5.40a36e02.jpg": "/ReactDeom/static/media/card5.40a36e02.jpg",
+    "static/media/card6.9dc2caf2.jpg": "/ReactDeom/static/media/card6.9dc2caf2.jpg",
+    "static/media/monkey.e5c213e4.png": "/ReactDeom/static/media/monkey.e5c213e4.png",
+    "static/media/picachoo.2d8b7e37.png": "/ReactDeom/static/media/picachoo.2d8b7e37.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.dc45cec8.js",
+    "static/css/2.61b4cb56.chunk.css",
+    "static/js/2.028f2570.chunk.js",
+    "static/css/main.bb796366.chunk.css",
+    "static/js/main.4e47b9e7.chunk.js"
+  ]
+}
