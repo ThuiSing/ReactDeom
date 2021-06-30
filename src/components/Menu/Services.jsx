@@ -1,7 +1,6 @@
 import React from "react";
-import Card from '../Service/Card'
-import {Sdata} from '../Service/Sdata'
-
+import Card from "../Service/Card";
+import { Sdata } from "../Service/Sdata";
 
 const Services = () => {
   return (
@@ -14,9 +13,15 @@ const Services = () => {
             </div>
           </div>
           <div className="row">
-
-            {Sdata.map((value,ind)=> <Card key={value.key} img={value.img} title={value.Ctitile} para={value.Cpara} btn={value.Cbtn} /> )}
-
+            {Sdata.map((value, ind) => (
+              <Card
+                key={value.key}
+                img={value.img}
+                title={value.Ctitile}
+                para={value.Cpara}
+                btn={value.Cbtn}
+              />
+            ))}
           </div>
         </div>
       </section>

@@ -6,17 +6,18 @@ import About from './components/Menu/About'
 import Services from './components/Menu/Services'
 import Contact from './components/Menu/Contact'
 import Footer from './Footer';
+import error from './components/Menu/Error'
 
 const App = () => {
   return (
     <>
       <Header />
-
       <Switch>
-      <Route exact path="/ReactDeom/" component={Home} />
-      <Route path="/ReactDeom/services" component={Services} />
-      <Route path="/ReactDeom/about" component={About} />
-      <Route  path="/ReactDeom/contact" component={Contact} />
+      <Route exact path="/" component={Home} />
+      <Route path="/services" component={Services} />
+      <Route path="/about" component={About} />
+      <Route  path="/contact" component={Contact} />
+      <Route path="" component={error} />
       </Switch>
 
       <Footer />
