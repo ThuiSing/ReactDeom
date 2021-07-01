@@ -6,7 +6,7 @@ const Header = () => {
   return (
     <nav class="navbar navbar-expand-lg navbar-dark">
       <div class="container">
-        <NavLink to="/" class="navbar-brand">
+        <NavLink to="/ReactDeom" class="navbar-brand">
           React Website
         </NavLink>
         <button
@@ -26,24 +26,24 @@ const Header = () => {
               <NavLink
                 exact
                 activeClassName="main_active_menu"
-                to="/"
+                to="/ReactDeom"
                 aria-current="page"
               >
                 Home
               </NavLink>
             </li>
             <li class="nav-item">
-              <NavLink activeClassName="main_active_menu" to="/services">
+              <NavLink activeClassName="main_active_menu" to="/ReactDeom/services">
                 Services
               </NavLink>
             </li>
             <li class="nav-item">
-              <NavLink activeClassName="main_active_menu" to="/about">
+              <NavLink activeClassName="main_active_menu" to="/ReactDeom/about">
                 About
               </NavLink>
             </li>
             <li class="nav-item">
-              <NavLink activeClassName="main_active_menu" to="/contact">
+              <NavLink activeClassName="main_active_menu" to="/ReactDeom/contact">
                 Contact
               </NavLink>
             </li>
