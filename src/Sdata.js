@@ -1,9 +1,9 @@
-import image1 from '../../images/card1.jpg'
-import image2 from '../../images/card2.jpg'
-import image3 from '../../images/card3.jpg'
-import image4 from '../../images/card4.jpg'
-import image5 from '../../images/card5.jpg'
-import image6 from '../../images/card6.jpg'
+import image1 from './images/card1.jpg'
+import image2 from './images/card2.jpg'
+import image3 from './images/card3.jpg'
+import image4 from './images/card4.jpg'
+import image5 from './images/card5.jpg'
+import image6 from './images/card6.jpg'
 
 export const Sdata = [
     {

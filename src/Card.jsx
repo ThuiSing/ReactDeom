@@ -1,5 +1,4 @@
 import React from 'react'
-import cardImage from '../../images/card1.jpg'
 
 const Card = (props) => {
     return (

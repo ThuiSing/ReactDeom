@@ -1,6 +1,6 @@
 import React from "react";
-import Card from "../Service/Card";
-import { Sdata } from "../Service/Sdata";
+import Card from "./Card";
+import { Sdata } from "./Sdata";
 
 const Services = () => {
   return (
