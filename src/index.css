@@ -1,7 +1,16 @@
-@import url('https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,900&display=swap");
 
-html,h1,h2,h3,h4.h5,h6,p,span,a,button{
-  font-family: 'Merriweather', serif;
+html,
+h1,
+h2,
+h3,
+h4.h5,
+h6,
+p,
+span,
+a,
+button {
+  font-family: "Merriweather", serif;
 }
 img {
   max-width: 100%;
@@ -9,10 +18,10 @@ img {
 
 /* Header  */
 /* main menu */
-nav{
+nav {
   background-color: #000;
 }
-.navbar-brand{
+.navbar-brand {
   font-size: 2.4rem;
 }
 .custom_nav {
@@ -21,7 +30,7 @@ nav{
   justify-content: flex-end;
 }
 .custom_nav li {
-  flex-grow: .1;
+  flex-grow: 0.1;
 }
 .custom_nav li a {
   display: inline-block;
@@ -168,7 +177,6 @@ textarea:focus {
   color: rgb(219, 219, 219);
 }
 
-
 /* Footer  */
 footer {
   background-color: #000;
@@ -178,35 +186,70 @@ footer {
 }
 
 /* responsive */
-@media (max-width:5000px) {
-  html{font-size: 100%;}
-  .homepage {height: 84vh;}
-  .about {height: 84vh;}
-  .contact {height: 84vh; }
-  
+@media (max-width: 5000px) {
+  html {
+    font-size: 100%;
+  }
+  .homepage {
+    height: 84vh;
+  }
+  .about {
+    height: 84vh;
+  }
+  .contact {
+    height: 84vh;
+  }
 }
-@media (max-width:1200px) {
-  html{font-size: 100%;}
-  .homepage {height: 84vh;}
-  .about {height: 84vh;}
-  .contact {height: 84vh; }
-  
+@media (max-width: 1200px) {
+  html {
+    font-size: 100%;
+  }
+  .homepage {
+    height: 84vh;
+  }
+  .about {
+    height: 84vh;
+  }
+  .contact {
+    height: 84vh;
+  }
 }
-@media (max-width:992px) {
-  html{font-size: 90%;}
-  .homepage {height: auto;}
-  .hp_right img{max-width: 80%;}
-  .home_text{width: 400px !important;}
-  .hp_left{margin: 2rem 0rem;}
-  .hp_right{margin: 1rem 0rem;}
-  .card img{height: 100% !important;}
-  
+@media (max-width: 992px) {
+  html {
+    font-size: 90%;
+  }
+  .homepage {
+    height: auto;
+  }
+  .hp_right img {
+    max-width: 80%;
+  }
+  .home_text {
+    width: 400px !important;
+  }
+  .hp_left {
+    margin: 2rem 0rem;
+  }
+  .hp_right {
+    margin: 1rem 0rem;
+  }
+  .card img {
+    height: 100% !important;
+  }
 }
-@media (max-width:768px) {
-  html{font-size: 85%;}
-  .hp_right img{max-width: 70%;}
+@media (max-width: 768px) {
+  html {
+    font-size: 85%;
+  }
+  .hp_right img {
+    max-width: 70%;
+  }
 }
-@media (max-width:576px) {
-  html{font-size: 70%;}
-  .home_text{width: 300px !important;}
+@media (max-width: 576px) {
+  html {
+    font-size: 70%;
+  }
+  .home_text {
+    width: 300px !important;
+  }
 }
